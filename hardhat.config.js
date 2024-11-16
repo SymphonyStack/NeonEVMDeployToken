@@ -43,5 +43,5 @@ task("deploy", "Deploys the MyToken contract")
             taskArgs.initialSupply,
         );
 
-        console.log("##" + data.stringify({ address: token.address }) + "##");
+        console.log("##" + JSON.stringify({ address: token.address }) + "##");
     });
