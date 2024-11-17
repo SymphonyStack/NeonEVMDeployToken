@@ -5,7 +5,8 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "dev": "npx hardhat compile && npx hardhat deploy --network neondevnet"
+        "dev": "npx hardhat compile && npx hardhat deploy --network neondevnet",
+        "build": "npm install --legacy-peer-deps @nomiclabs/hardhat-ethers@^2.0.0 @types/sinon-chai@^3.2.3 ethereum-waffle@* ethers@^5.0.0"
     },
     "keywords": [],
     "author": "",
